@@ -1,0 +1,1877 @@
+{
+  "MobsTypeList": [
+    {
+      "key": "ARMOR_STAND",
+      "label": "盔甲架"
+    },
+    {
+      "key": "ZOMBIE",
+      "label": "僵尸"
+    },
+    {
+      "key": "BABY_PIG_ZOMBIE",
+      "label": "宝宝猪人僵尸"
+    },
+    {
+      "key": "BABY_PIG_ZOMBIE_VILLAGER",
+      "label": "宝宝猪人僵尸村民"
+    },
+    {
+      "key": "BABY_ZOMBIE",
+      "label": "宝宝僵尸"
+    },
+    {
+      "key": "BABY_ZOMBIE_VILLAGER",
+      "label": "宝宝僵尸村民"
+    },
+    {
+      "key": "BAT",
+      "label": "蝙蝠"
+    },
+    {
+      "key": "BLAZE",
+      "label": "烈焰人"
+    },
+    {
+      "key": "BOAT",
+      "label": "船"
+    },
+    {
+      "key": "CAVE_SPIDER",
+      "label": "洞穴蜘蛛"
+    },
+    {
+      "key": "CHICKEN",
+      "label": "鸡"
+    },
+    {
+      "key": "COW",
+      "label": "牛"
+    },
+    {
+      "key": "CREEPER",
+      "label": "苦力怕"
+    },
+    {
+      "key": "ELDER_GUARDIAN",
+      "label": "远古守卫者"
+    },
+    {
+      "key": "ENDER_DRAGON",
+      "label": "末影龙"
+    },
+    {
+      "key": "ENDERMAN",
+      "label": "末影人"
+    },
+    {
+      "key": "ENDERMITE",
+      "label": "末影螨虫"
+    },
+    {
+      "key": "EVOKER",
+      "label": "唤魔者"
+    },
+    {
+      "key": "GHAST",
+      "label": "恶魂"
+    },
+    {
+      "key": "GIANT",
+      "label": "巨人僵尸"
+    },
+    {
+      "key": "GUARDIAN",
+      "label": "守卫者"
+    },
+    {
+      "key": "HORSE",
+      "label": "马"
+    },
+    {
+      "key": "HUSK",
+      "label": "尸壳僵尸"
+    },
+    {
+      "key": "IRON_GOLEM",
+      "label": "铁傀儡"
+    },
+    {
+      "key": "LLAMA",
+      "label": "羊驼"
+    },
+    {
+      "key": "MAGMA_CUBE",
+      "label": "岩浆怪"
+    },
+    {
+      "key": "MUSHROOM_COW",
+      "label": "蘑菇牛"
+    },
+    {
+      "key": "OCELOT",
+      "label": "豹猫"
+    },
+    {
+      "key": "PIG",
+      "label": "猪"
+    },
+    {
+      "key": "PIG_ZOMBIE",
+      "label": "猪人僵尸"
+    },
+    {
+      "key": "PIG_ZOMBIE_VILLAGER",
+      "label": "猪人僵尸村民"
+    },
+    {
+      "key": "PRIMED_TNT",
+      "label": "被激活的TNT"
+    },
+    {
+      "key": "POLAR_BEAR",
+      "label": "北极熊"
+    },
+    {
+      "key": "RABBIT",
+      "label": "兔子"
+    },
+    {
+      "key": "SHEEP",
+      "label": "羊"
+    },
+    {
+      "key": "SILVERFISH",
+      "label": "蠹虫"
+    },
+    {
+      "key": "SKELETON",
+      "label": "骷髅"
+    },
+    {
+      "key": "SKELETON_HORSE",
+      "label": "骷髅马"
+    },
+    {
+      "key": "SHULKER",
+      "label": "潜影贝"
+    },
+    {
+      "key": "SLIME",
+      "label": "史莱姆"
+    },
+    {
+      "key": "SNOWMAN",
+      "label": "雪人"
+    },
+    {
+      "key": "SPIDER",
+      "label": "蜘蛛"
+    },
+    {
+      "key": "STRAY",
+      "label": "流浪者"
+    },
+    {
+      "key": "SQUID",
+      "label": "鱿鱼"
+    },
+    {
+      "key": "VEX",
+      "label": "恼鬼"
+    },
+    {
+      "key": "VILLAGER",
+      "label": "村民"
+    },
+    {
+      "key": "VINDICATOR",
+      "label": "卫道士"
+    },
+    {
+      "key": "WITCH",
+      "label": "女巫"
+    },
+    {
+      "key": "WITHER",
+      "label": "凋灵"
+    },
+    {
+      "key": "WITHER_SKELETON",
+      "label": "凋灵骷髅"
+    },
+    {
+      "key": "WOLF",
+      "label": "狼"
+    }
+  ],
+  "ConditionsVar": [
+    {
+      "key": "required",
+      "label": "该条件是技能运行所必需的。"
+    },
+    {
+      "key": "cancel",
+      "label": "如果满足此条件，则该技能将不会运行。"
+    },
+    {
+      "key": "power ",
+      "label": "修改技能的威力（即 2.0 的技能会使技能的威力加倍） [power multiplier]"
+    },
+    {
+      "key": "cast ",
+      "label": "如满足条件，则释放额外技能。 cast [技能]"
+    },
+    {
+      "key": "castinstead ",
+      "label": "如果满足条件，则施放不同技能。castinstead [技能]"
+    },
+    {
+      "key": "orElseCast ",
+      "label": "如果不满足条件，则释放不同的技能。orElseCast [技能]（4.12 MM）"
+    },
+    {
+      "key": "globalscore{objective=objective;value=value}",
+      "label": "检查目标的全局记分牌"
+    },
+    {
+      "key": "mobsinworld{a=amount}",
+      "label": "匹配生物所在世界生物的数量（可以是一个值，也可以是范围）"
+    },
+    {
+      "key": "distance{d=value}",
+      "label": "目标与生物间的距离是不是在范围内。可以是单独的数字，也可以是范围（20-40，<50）"
+    },
+    {
+      "key": "lineofsight ",
+      "label": "测试目标在生物的视线上。例: lineofsight true"
+    },
+    {
+      "key": "owner ",
+      "label": "测试目标是否为生物的主人(必须使用 SetOwner 机制) 例: owner true"
+    },
+    {
+      "key": "targetwithin{d=value}",
+      "label": "目标是否在一定范围内"
+    },
+    {
+      "key": "targetnotwithin{d=value}",
+      "label": "目标是否不在一定范围内"
+    },
+    {
+      "key": "altitude{a=number}",
+      "label": "测试目标/生物的海拔,可为距离或范围。例: altitude{a?1}"
+    },
+    {
+      "key": "biome{b=biome}",
+      "label": "测试目标/生物的生物群系。默认为 Plains"
+    },
+    {
+      "key": "crouching",
+      "label": "测试目标是否蹲下（应该只对玩家有用）"
+    },
+    {
+      "key": "distancefromspawn ",
+      "label": "测试生物/目标距离出生点距离(可为数字或范围) 例: distancefromspawn [number]"
+    },
+    {
+      "key": "entitytype ",
+      "label": "测试生物种类 例：entitytype player"
+    },
+    {
+      "key": "fallspeed{speed=value}",
+      "label": "可为数字或范围，可以为负，如跳跃 fallspeed{speed=[number/number range]}"
+    },
+    {
+      "key": "gliding",
+      "label": "测试生物是否使用鞘翅滑翔。可以使用 SetGliding 机制"
+    },
+    {
+      "key": "haspotioneffect{type=potion type;level=level;duration=duration_start to duration_end}",
+      "label": "测试生物/目标的药水效果，种类，持续时间 - level 可以指定或比较（>1） {type=[potion type];level=[level];duration=[duration start] to [duration end]}"
+    },
+    {
+      "key": "hastag{tag=tag_name}",
+      "label": "生物/目标有没有计分板标签 可以使用 AddTag 机制"
+    },
+    {
+      "key": "height number_range",
+      "label": "生物的高度 可以是范围或单个数字"
+    },
+    {
+      "key": "heightabove number",
+      "label": "生物是否在一个高度以上"
+    },
+    {
+      "key": "heightbelow number",
+      "label": "生物是否在一个高度以下"
+    },
+    {
+      "key": "incombat",
+      "label": "生物是否在战斗"
+    },
+    {
+      "key": "level number_range",
+      "label": "生物在一定等级间，可以为单个数字或范围"
+    },
+    {
+      "key": "lightlevel{l=number_range}",
+      "label": "生物的光照强度，必须在 0-15 间，可为范围"
+    },
+    {
+      "key": "mobsinchunk{a=number_range}",
+      "label": "区块内的生物数量, 可为单独数字或范围"
+    },
+    {
+      "key": "mobsinworld number_range",
+      "label": "当前世界的生物数量，可为单独数字或范围"
+    },
+    {
+      "key": "mobtype mobname",
+      "label": "生物种类 只可用于随机刷怪点文件，数组、逗号分隔"
+    },
+    {
+      "key": "offgcd",
+      "label": "当生物全局冷却为0，执行技能，必须使用 GCD 技能设置冷却时间，否则为 0"
+    },
+    {
+      "key": "onblock material_type",
+      "label": "当生物站在特定方块上执行技能，允许数组（多个方块）"
+    },
+    {
+      "key": "onground",
+      "label": "当生物在地面上执行技能"
+    },
+    {
+      "key": "playerkills number",
+      "label": "当玩家击杀达到几个后执行技能"
+    },
+    {
+      "key": "playernotwithin distance",
+      "label": "当玩家在几格以外执行技能 只可以使用数字，如果需要范围，使用 targetdistance 条件"
+    },
+    {
+      "key": "targetnotwithin distance",
+      "label": "当目标在几格以外执行技能 只可以使用数字，如果需要范围，使用 targetdistance 条件"
+    },
+    {
+      "key": "playerwithin{d=(distance)}",
+      "label": "当玩家在几格以内执行技能 只可以使用数字，如果需要范围，使用 targetdistance 条件"
+    },
+    {
+      "key": "targetwithin{d=(distance)}",
+      "label": "当目标在几格以内执行技能 只可以使用数字，如果需要范围，使用 targetdistance 条件"
+    },
+    {
+      "key": "raining",
+      "label": "当下雨执行技能"
+    },
+    {
+      "key": "stance{s=string}",
+      "label": "当生物处于什么立场时，执行技能 "
+    },
+    {
+      "key": "sunny",
+      "label": "当出太阳时执行技能"
+    },
+    {
+      "key": "thundering",
+      "label": "当打雷时执行技能"
+    },
+    {
+      "key": "world worldname",
+      "label": "当生物处于特定世界执行技能（可以使用多个世界（数组）"
+    },
+    {
+      "key": "worldtime number_range",
+      "label": "当时间处于某范围内执行技能 （0 到 24000。使用 /time 获得时间，使用范围（0-12000））"
+    },
+    {
+      "key": "outside ",
+      "label": "在室外时执行技能，以头顶有无方块遮挡作为室内室外标准 [true/false]"
+    },
+    {
+      "key": "inside ",
+      "label": "在室内时执行技能，以头顶有无方块遮挡作为室内室外标准 [true/false]"
+    }
+  ],
+  "AIGoalSelectors": [
+    {
+      "key": "clear",
+      "label": "移除生物的 AI",
+      "disabled": false
+    },
+    {
+      "key": "breakdoors",
+      "label": "破坏沿途经过的门",
+      "disabled": false
+    },
+    {
+      "key": "eatgrass",
+      "label": "让生物偶尔... 吃草"
+    },
+    {
+      "key": "float",
+      "label": "\t让生物在水中游泳/不会沉没"
+    },
+    {
+      "key": "lookatplayers",
+      "label": "生物会看向附近的玩家"
+    },
+    {
+      "key": "opendoors",
+      "label": "生物会把沿途经过的门打开，经过后关闭"
+    },
+    {
+      "key": "closedoors",
+      "label": "不知道这个有什么用，找个人来试下"
+    },
+    {
+      "key": "randomlookaround",
+      "label": "\t生物会随机看向四周"
+    },
+    {
+      "key": "avoidarrows",
+      "label": "生物躲避飞来的箭矢 (在 MM 2.5.0+ 移除"
+    },
+    {
+      "key": "avoidcreepers",
+      "label": "生物躲避爬行者"
+    },
+    {
+      "key": "avoidskeletons",
+      "label": "生物躲避骷髅"
+    },
+    {
+      "key": "avoidzombies",
+      "label": "生物躲避僵尸"
+    },
+    {
+      "key": "fleesun",
+      "label": "日出时自行躲在阴影里"
+    },
+    {
+      "key": "meleeattack",
+      "label": "让生物移动、近战攻击"
+    },
+    {
+      "key": "movetowardstarget",
+      "label": "让生物移动到目标前"
+    },
+    {
+      "key": "randomstroll",
+      "label": "随机游荡"
+    },
+    {
+      "key": "restrictsun",
+      "label": "理论上这将让生物一直呆在太阳底下"
+    },
+    {
+      "key": "fleeplayers",
+      "label": "让生物躲避玩家"
+    },
+    {
+      "key": "fleegolems",
+      "label": "让生物躲避铁傀儡"
+    },
+    {
+      "key": "fleevillagers",
+      "label": "让生物... 你能猜到（躲避村民）"
+    },
+    {
+      "key": "spiderattack",
+      "label": "像蜘蛛一样攻击（看不出有什么跟近战攻击不同的）（注：试着和 leapattarget 一起用）"
+    },
+    {
+      "key": "leapattarget",
+      "label": "让生物飞跃到目标前（注：看起来需要 meleeattack/spiderattack 才能正确工作）"
+    },
+    {
+      "key": "moveindoors",
+      "label": "moveindoors"
+    },
+    {
+      "key": "movethroughvillage",
+      "label": "movethroughvillage"
+    },
+    {
+      "key": "movetowardsrestriction",
+      "label": "movetowardsrestriction"
+    }
+  ],
+  "AITargetSelectors": [
+    {
+      "key": "clear",
+      "label": "特殊设置，清除AI"
+    },
+    {
+      "key": "attacker",
+      "label": "将攻击者设为目标"
+    },
+    {
+      "key": "monsters",
+      "label": "将怪物设为目标"
+    },
+    {
+      "key": "players",
+      "label": "将玩家设为目标"
+    },
+    {
+      "key": "villagers",
+      "label": "将村民设为目标"
+    },
+    {
+      "key": "golems",
+      "label": "将傀儡设为目标...."
+    },
+    {
+      "key": "OtherFaction",
+      "label": "将任何非本派系的生物设为目标"
+    },
+    {
+      "key": "OtherFactionMonsters",
+      "label": "将任何非本派系的怪物设为目标"
+    },
+    {
+      "key": "OtherFactionVillagers",
+      "label": "将任何非本派系的村民设为目标"
+    },
+    {
+      "key": "SpecificFaction [faction_name]",
+      "label": "将任何指定派系的生物设为目标"
+    },
+    {
+      "key": "SpecificFactionMonsters [faction_name]",
+      "label": "将任何指定派系的怪物设为目标"
+    },
+    {
+      "key": "ownerattacker",
+      "label": "攻击攻击主人的生物"
+    },
+    {
+      "key": "ownertarget",
+      "label": "攻击主人攻击的生物"
+    }
+  ],
+  "VariablesVar": [
+    {
+      "key": "<target.uuid>",
+      "label": "返回目标的UUID"
+    },
+    {
+      "key": "<target.name>",
+      "label": "返回目标的名称"
+    },
+    {
+      "key": "<target.hp>",
+      "label": "返回目标的当前血量"
+    },
+    {
+      "key": "<target.threat>",
+      "label": "返回目标的威胁等级"
+    },
+    {
+      "key": "<target.l.w>",
+      "label": "返回目标的所在世界"
+    },
+    {
+      "key": "<target.l.x>",
+      "label": "返回目标的X坐标"
+    },
+    {
+      "key": "<target.l.y>",
+      "label": "返回目标的Y坐标"
+    },
+    {
+      "key": "<target.l.z>",
+      "label": "返回目标的Z坐标"
+    },
+    {
+      "key": "<trigger.uuid>",
+      "label": "返回触发触发器的生物的UUID"
+    },
+    {
+      "key": "<trigger.name>",
+      "label": "返回触发触发器的生物的名称"
+    },
+    {
+      "key": "<trigger.hp>",
+      "label": "返回触发触发器的生物的当前生命"
+    },
+    {
+      "key": "<trigger.threat>",
+      "label": "返回触发触发器的生物的威胁等级"
+    },
+    {
+      "key": "<trigger.l.w>",
+      "label": "返回触发触发器的生物的所在世界"
+    },
+    {
+      "key": "<trigger.l.x>",
+      "label": "返回触发触发器的生物的X坐标"
+    },
+    {
+      "key": "<trigger.l.y>",
+      "label": "返回触发触发器的生物的Y坐标"
+    },
+    {
+      "key": "<trigger.l.z>",
+      "label": "返回触发触发器的生物的Z坐标"
+    },
+    {
+      "key": "<drops.xp>",
+      "label": "返回 SkillAPI 生物掉落的经验"
+    },
+    {
+      "key": "<drops.money>",
+      "label": "返回目标掉落的 Vault 账户金钱"
+    },
+    {
+      "key": "<random.min-max>",
+      "label": "返回在“min”和“max”间的一个随机数. (2.2.1)"
+    },
+    {
+      "key": "<mob.score.objective>",
+      "label": "返回生物的“objective”的分数 (2.3)"
+    },
+    {
+      "key": "<target.score.objective>",
+      "label": "返回目标的“objective”的分数 (2.3)"
+    },
+    {
+      "key": "<trigger.score.objective>",
+      "label": "返回触发者的“objective”的分数 (2.3)"
+    },
+    {
+      "key": "<global.score.objective>",
+      "label": "返回全局的“objective”的分数 (2.3)"
+    },
+    {
+      "key": "<score.objective.dummyname>",
+      "label": "返回“objective”的“dummyname”的分数 (2.3)"
+    },
+    {
+      "key": "<&co>",
+      "label": ":"
+    },
+    {
+      "key": "<&sq>",
+      "label": "'"
+    },
+    {
+      "key": "<&da>",
+      "label": ""
+    },
+    {
+      "key": "-<&bs>",
+      "label": "\\"
+    },
+    {
+      "key": "<&fs>",
+      "label": "/"
+    },
+    {
+      "key": "<&sp>",
+      "label": "空格"
+    },
+    {
+      "key": "<&cm>",
+      "label": ","
+    },
+    {
+      "key": "<&sc>",
+      "label": ";"
+    },
+    {
+      "key": "<&eq>",
+      "label": "="
+    },
+    {
+      "key": "<&ss>",
+      "label": "§"
+    },
+    {
+      "key": "<&dq>",
+      "label": "\""
+    },
+    {
+      "key": "<&lb>",
+      "label": "["
+    },
+    {
+      "key": "<&rc>",
+      "label": "}"
+    },
+    {
+      "key": "<&lc>",
+      "label": "{"
+    },
+    {
+      "key": "<&nl>",
+      "label": "新行"
+    },
+    {
+      "key": "<&heart>",
+      "label": "爱心 (2.1.7)"
+    },
+    {
+      "key": "<&skull>",
+      "label": "骷髅头 (2.1.7)"
+    },
+    {
+      "key": "&0",
+      "label": "[颜色] 黑色"
+    },
+    {
+      "key": "&B",
+      "label": "[颜色] 浅蓝色"
+    },
+    {
+      "key": "&1",
+      "label": "[颜色] 深蓝色"
+    },
+    {
+      "key": "&C",
+      "label": "[颜色] 红色"
+    },
+    {
+      "key": "&2",
+      "label": "[颜色] 深绿色"
+    },
+    {
+      "key": "&D",
+      "label": "[颜色] 亮紫色"
+    },
+    {
+      "key": "&3",
+      "label": "[颜色] 深浅蓝"
+    },
+    {
+      "key": "&E",
+      "label": "[颜色] 黄色"
+    },
+    {
+      "key": "&4",
+      "label": "[颜色] 深红色"
+    },
+    {
+      "key": "&F",
+      "label": "[颜色] 白色"
+    },
+    {
+      "key": "&5",
+      "label": "[颜色] 深紫色"
+    },
+    {
+      "key": "&K",
+      "label": "随机字符"
+    },
+    {
+      "key": "&6",
+      "label": "[颜色] 金色"
+    },
+    {
+      "key": "&L",
+      "label": "加粗"
+    },
+    {
+      "key": "&7",
+      "label": "[颜色] 灰色"
+    },
+    {
+      "key": "&M",
+      "label": "中划线"
+    },
+    {
+      "key": "&8",
+      "label": "[颜色] 暗灰色"
+    },
+    {
+      "key": "&N",
+      "label": "下划线"
+    },
+    {
+      "key": "&9",
+      "label": "[颜色] 蓝色"
+    },
+    {
+      "key": "&O",
+      "label": "斜体"
+    },
+    {
+      "key": "&A",
+      "label": "[颜色] 绿色"
+    },
+    {
+      "key": "&R",
+      "label": "重置"
+    },
+    {
+      "key": "<mob.uuid>",
+      "label": "返回生物的UUID"
+    },
+    {
+      "key": "<mob.level>",
+      "label": "返回生物的等级"
+    },
+    {
+      "key": "<mob.name>",
+      "label": "返回生物的名称"
+    },
+    {
+      "key": "<mob.hp>",
+      "label": "返回生物的生命"
+    },
+    {
+      "key": "<mob.mhp>",
+      "label": "返回生物的最大生命"
+    },
+    {
+      "key": "<mob.php>",
+      "label": "返回生物的百分比生命"
+    },
+    {
+      "key": "<mob.thp>",
+      "label": "返回生物的最大生命"
+    },
+    {
+      "key": "<mob.tt.top>",
+      "label": "返回生物的威胁最大的生物"
+    },
+    {
+      "key": "<mob.l.w>",
+      "label": "返回生物的所在世界"
+    },
+    {
+      "key": "<mob.l.x>",
+      "label": "返回生物的X坐标"
+    },
+    {
+      "key": "<mob.l.y>",
+      "label": "返回生物的Y坐标"
+    },
+    {
+      "key": "<mob.l.z>",
+      "label": "返回生物的Z坐标"
+    },
+    {
+      "key": "<mob.stance>",
+      "label": "返回生物的当前立场 (2.2)"
+    },
+    {
+      "key": "<mob.owner.name>",
+      "label": "返回狼的主人 (2.3)"
+    },
+    {
+      "key": "<mob.owner.uuid>",
+      "label": "返回狼的主人的UUID (2.3)"
+    }
+  ],
+  "SpecialDrops": [
+    {
+      "key": "champions-exp",
+      "label": "掉落 Champions 插件的经验"
+    },
+    {
+      "key": "skillapi-exp",
+      "label": "掉落 SkillAPI 插件的经验"
+    },
+    {
+      "key": "heroesexp",
+      "label": "掉落 Heroes 插件的经验"
+    },
+    {
+      "key": "mcmmo-exp",
+      "label": "掉落 MCMMO 插件的经验"
+    },
+    {
+      "key": "exp",
+      "label": "掉落原版经验"
+    },
+    {
+      "key": "money",
+      "label": "掉落 Vault 账户的金钱"
+    },
+    {
+      "key": "mythicdrop",
+      "label": "掉落 MythicDrops 的物品"
+    },
+    {
+      "key": "phatloot",
+      "label": "掉落 PhatLoot 插件的掉落物"
+    }
+  ],
+  "DamageModifiers": [
+    {
+      "key": "DROWNING",
+      "label": "在水中空气耗尽造成的损坏。"
+    },
+    {
+      "key": "BLOCK_EXPLOSION",
+      "label": "靠近爆炸方块造成的损坏。"
+    },
+    {
+      "key": "ENTITY_EXPLOSION",
+      "label": "当一个实体（如爬行者）爆炸时，由于在该区域而造成的伤害。"
+    },
+    {
+      "key": "VOID",
+      "label": "掉入虚空造成的损坏。"
+    },
+    {
+      "key": "LIGHTNING",
+      "label": "被闪电击中造成的损坏。"
+    },
+    {
+      "key": "SUICIDE",
+      "label": "使用命令“/kill”自杀造成的损害。"
+    },
+    {
+      "key": "STARVATION",
+      "label": "由于有一个空的饥饿条而造成的饥饿造成的损害。"
+    },
+    {
+      "key": "POISON",
+      "label": "由于持续的毒害作用而造成的损害。"
+    },
+    {
+      "key": "MAGIC",
+      "label": "被药水或咒语击中造成的伤害。"
+    },
+    {
+      "key": "DRAGON_BREATH",
+      "label": "被末影的呼吸击中造成的伤害。"
+    },
+    {
+      "key": "WITHER",
+      "label": "枯萎药水效果造成的伤害。"
+    },
+    {
+      "key": "FALLING_BLOCK",
+      "label": "被掉落的方块击中造成伤害而造成的伤害。"
+    },
+    {
+      "key": "THORNS",
+      "label": "荆棘附魔为报复另一次攻击而造成的伤害。"
+    },
+    {
+      "key": "CUSTOM",
+      "label": "由“自定义”引起的损坏，有时由其他插件使用。"
+    },
+    {
+      "key": "LAVA",
+      "label": "接触熔岩造成的损坏。"
+    },
+    {
+      "key": "MELTING",
+      "label": "雪人融化造成的损坏。"
+    },
+    {
+      "key": "FIRE_TICK",
+      "label": "由于持续的火灾效应造成的损坏。"
+    },
+    {
+      "key": "FIRE",
+      "label": "触摸火灾造成的损坏。"
+    },
+    {
+      "key": "HOT_FLOOR",
+      "label": "站在岩浆块上造成的损坏。"
+    },
+    {
+      "key": "FALL",
+      "label": "当实体落下距离超过 3 个方块时造成的伤害。"
+    },
+    {
+      "key": "SUFFOCATION",
+      "label": "站在方块内造成的损坏。"
+    },
+    {
+      "key": "PROJECTILE",
+      "label": "被射弹攻击时造成的伤害。"
+    },
+    {
+      "key": "ENTITY_ATTACK",
+      "label": "一个实体攻击另一个实体时造成的损害。"
+    },
+    {
+      "key": "CONTACT",
+      "label": "当实体接触仙人掌等方块时造成的损坏。"
+    }
+  ],
+  "SkillEffectVar": [
+    {
+      "key": "effect:Block Mask",
+      "label": "特效:临时戴上一块方块"
+    },
+    {
+      "key": "effect:Ender",
+      "label": "特效:Ender 特效"
+    },
+    {
+      "key": "effect:Ender Beam",
+      "label": "特效:末影水晶激光连接到目标"
+    },
+    {
+      "key": "effect:Explosion",
+      "label": "特效:爆炸特效"
+    },
+    {
+      "key": "effect:Firework",
+      "label": "特效:烟花特效"
+    },
+    {
+      "key": "effect:Flames",
+      "label": "特效:刷怪箱火焰特效"
+    },
+    {
+      "key": "effect:Geyser",
+      "label": "特效:创造喷泉一样的水或岩浆"
+    },
+    {
+      "key": "effect:Item Spray",
+      "label": "特效:在目标周围喷出临时物品"
+    },
+    {
+      "key": "effect:Lightning",
+      "label": "特效:落下一道假雷"
+    },
+    {
+      "key": "effect:Particles",
+      "label": "特效:在目标周围创建粒子"
+    },
+    {
+      "key": "effect:Particle Box",
+      "label": "特效:在目标周围生成粒子盒"
+    },
+    {
+      "key": "effect:Particle Line",
+      "label": "特效:在目标周围生成粒子线"
+    },
+    {
+      "key": "effect:Particle Ring",
+      "label": "特效:在目标周围生成粒子环"
+    },
+    {
+      "key": "effect:Particle Sphere",
+      "label": "特效:在目标周围生成粒子球"
+    },
+    {
+      "key": "effect:Particle Tornado",
+      "label": "特效:在目标周围创建持续的“龙卷风”型特效粒子"
+    },
+    {
+      "key": "effect:Smoke",
+      "label": "特效:创造一阵烟雾"
+    },
+    {
+      "key": "effect:Smoke Swirl",
+      "label": "特效:创造持续的“旋涡”型烟雾"
+    },
+    {
+      "key": "effect:Sound",
+      "label": "特效:播放材质包中的一个音效"
+    },
+    {
+      "key": "effect:Spin",
+      "label": "特效:让生物旋转"
+    },
+    {
+      "key": "effect:Atom",
+      "label": "[EffectLib] 特效:在目标周围创建“原子”的代表"
+    },
+    {
+      "key": "effect:Particle Vortex",
+      "label": "[EffectLib] 特效:在目标周围创建粒子旋涡"
+    },
+    {
+      "key": "effect:DNA",
+      "label": "[EffectLib] 特效:创建DNA分子"
+    }
+  ],
+  "SkillTargetVar": [
+    {
+      "key": "@Self",
+      "label": "将自身作为目标"
+    },
+    {
+      "key": "@Target",
+      "label": "将生物当前的攻击目标作为目标"
+    },
+    {
+      "key": "@Trigger",
+      "label": "将触发技能的生物作为目标"
+    },
+    {
+      "key": "@NearestPlayer",
+      "label": "将最近的玩家作为目标"
+    },
+    {
+      "key": "@WolfOwner",
+      "label": "将狼的主人作为目标"
+    },
+    {
+      "key": "@Owner",
+      "label": "将生物的主人作为目标（机制setOwner）"
+    },
+    {
+      "key": "@Mount",
+      "label": "[MM 2.5.0+]将骑乘的生物作为目标"
+    },
+    {
+      "key": "@LivingEntitiesInRadius{r=#}",
+      "label": "将半径内的生物作为目标"
+    },
+    {
+      "key": "@PlayersInRing{min=#;max=#}",
+      "label": "定位指定最小半径和最大半径之间的所有玩家。"
+    },
+    {
+      "key": "@PlayersNearOrigin{r=#}",
+      "label": "以源技能起源附近的玩家为目标。"
+    },
+    {
+      "key": "@MobsNearOrigin{r=R;t=T}",
+      "label": "暂无描述"
+    },
+    {
+      "key": "@EntitiesNearOrigin{r=#}",
+      "label": "定位源技能起源附近的所有实体"
+    },
+    {
+      "key": "@ThreatTablePlayers",
+      "label": "将威胁表内的所有玩家作为目标"
+    },
+    {
+      "key": "@SelfLocation",
+      "label": "生物自己的坐标"
+    },
+    {
+      "key": "@TargetLocation",
+      "label": "生物目标的坐标"
+    },
+    {
+      "key": "@TriggerLocation",
+      "label": "将触发技能的生物的坐标作为目标"
+    },
+    {
+      "key": "@Location{c=x,y,z}",
+      "label": "指定坐标作为目标"
+    },
+    {
+      "key": "@Origin",
+      "label": "将发射物的发射者的坐标作（不一定是生物）为目标"
+    },
+    {
+      "key": "@Spawner{s=[string]}",
+      "label": "将发射物的发射者的坐标作（不一定是生物）为目标"
+    },
+    {
+      "key": "@RLNTE{amount=#;radius=#;spacing=#;minradius=#;}",
+      "label": "选择生物周围随机的坐标点作为目标，amount代表坐标点数量，radius代表半径的距离，spacing代表每个坐标之间的距离，minradius代表最小半径，这个选择常用于 Meteor 技能"
+    },
+    {
+      "key": "@PlayerLocationsInRadius{r=#}",
+      "label": "选择范围圆环内的目标点"
+    },
+    {
+      "key": "@Cone{angle=#;points=#;range=#;rotation=#;}",
+      "label": "选择一个锥形体作为目标点组"
+    },
+    {
+      "key": "@EntitiesInCone{angle=#;range=#;rotation=#;}",
+      "label": "选择锥形内的所有生物"
+    },
+    {
+      "key": "@p",
+      "label": "选择最近的玩家"
+    },
+    {
+      "key": "@a",
+      "label": "选择所有玩家"
+    },
+    {
+      "key": "@r",
+      "label": "选择随机玩家"
+    },
+    {
+      "key": "@e",
+      "label": "！选择所有实体"
+    },
+    {
+      "key": "ignore=\\qt",
+      "label": "忽略指定目标"
+    },
+    {
+      "key": "target=\\qt",
+      "label": "只选择指定目标"
+    },
+    {
+      "key": "@PlayersInRadius{r=#}",
+      "abbr": "@PIR{r=#}",
+      "label": "将半径内的玩家作为目标"
+    },
+    {
+      "key": "@MobsInRadius{r=#;types=X,X,X}",
+      "abbr": "@MIR{r=R;t=T}",
+      "label": "将半径内的生物作为目标"
+    },
+    {
+      "key": "@EntitiesInRadius{r=#;types=X,X,X}",
+      "abbr": "@EIR{r=R;t=T}",
+      "label": "将目标范围内的所有实体作为目标"
+    },
+    {
+      "key": "@PlayersInWorld",
+      "abbr": "@World",
+      "label": "将当前世界所有玩家作为目标"
+    },
+    {
+      "key": "@PlayersOnServer",
+      "abbr": "@Server",
+      "label": "将服务器内的所有玩家作为目标"
+    },
+    {
+      "key": "@RandomThreatTarget",
+      "abbr": "@RTT",
+      "label": "将威胁表内的随机一名玩家作为目标"
+    },
+    {
+      "key": "@ThreatTable",
+      "abbr": "@TT",
+      "label": "将所有威胁表内的生物作为目标"
+    },
+    {
+      "key": "@PlayerLocationsInRadius{r=#}",
+      "abbr": "@PLIR{r=#}",
+      "label": "将半径内的所有玩家的坐标作为目标"
+    },
+    {
+      "key": "@Line{radius=#;fromorigin=true/false}",
+      "abbr": "@Line{r=#;fo=true/false}",
+      "label": "将目标和生物之间的连线的所有坐标点作为目标"
+    },
+    {
+      "key": "@EntitiesInLine{radius=#;fromorigin=true/false}",
+      "abbr": "@EIL{r=#;fo=true/false}",
+      "label": "将目标与生物间连线上的所有生物作为目标"
+    }
+  ],
+  "OriginalArgumentsVar": [
+    {
+      "key": "x=X, y=Y, z=Z",
+      "label": "[原版参数] 坐标。如果给出了这些属性，那么目标会以此作为基准"
+    },
+    {
+      "key": "r=R",
+      "label": "[原版参数] 最大半径，必须设置坐标"
+    },
+    {
+      "key": "rm=RM",
+      "label": "[原版参数] 最小半径"
+    },
+    {
+      "key": "m=M",
+      "label": "[原版参数] 游戏模式。目标处于的游戏模式 0 = 生存, 1 = 创造, 2 = 冒险, 3 = 旁观"
+    },
+    {
+      "key": "c=C",
+      "label": "[原版参数] 最大数量的生物，正数尝试选择最近的，负数则是最远的"
+    },
+    {
+      "key": "l=L",
+      "label": "[原版参数] 最大等级，会尝试选择最高的"
+    },
+    {
+      "key": "lm=LM",
+      "label": "[原版参数] 最小等级"
+    },
+    {
+      "key": "score_=SCORE",
+      "label": "[原版参数] 最大计分板分数"
+    },
+    {
+      "key": "score__min=SCORE",
+      "label": "[原版参数] 最小计分板分数"
+    },
+    {
+      "key": "team=TEAM",
+      "label": "[原版参数] 是“TEAM”队伍的成员"
+    },
+    {
+      "key": "team=!TEAM",
+      "label": "[原版参数] 不是“TEAM”队伍的成员"
+    },
+    {
+      "key": "name=NAME",
+      "label": "[原版参数] 名称必须为“NAME”"
+    },
+    {
+      "key": "name=!NAME",
+      "label": "[原版参数] 名称必须不为“NAME”"
+    },
+    {
+      "key": "dx=DX, dy=DY, dz=DZ",
+      "label": "[原版参数] 体积尺寸，选择长方形区域"
+    },
+    {
+      "key": "rx=RX",
+      "label": "[原版参数] 最大垂直旋转角"
+    },
+    {
+      "key": "rxm=RXM",
+      "label": "[原版参数] 最小垂直旋转角"
+    },
+    {
+      "key": "ry=RY",
+      "label": "[原版参数] 最大水平旋转角"
+    },
+    {
+      "key": "rym=RYM",
+      "label": "[原版参数] 最小水平旋转角"
+    },
+    {
+      "key": "type=TYPE",
+      "label": "[原版参数] 目标必须为“TYPE”型生物"
+    },
+    {
+      "key": "type=!TYPE",
+      "label": "[原版参数] 目标必须不是“TYPE”型生物"
+    },
+    {
+      "key": "tag=TAG",
+      "label": "[原版参数] 目标必须拥有“TAG”计分板标签"
+    },
+    {
+      "key": "tag=!TAG",
+      "label": "[原版参数] 目标必须没有“TAG”计分板标签"
+    }
+  ],
+  "TriggerVar": [
+    {
+      "key": "~onCombat",
+      "label": "默认"
+    },
+    {
+      "key": "~onAttack",
+      "label": "当生物攻击"
+    },
+    {
+      "key": "~onDamaged",
+      "label": "当生物受到伤害"
+    },
+    {
+      "key": "~onSpawn",
+      "label": "当生物生成"
+    },
+    {
+      "key": "~onFirstSpawn",
+      "label": "当生物第一次从刷怪点出生时"
+    },
+    {
+      "key": "~onDeath",
+      "label": "当生物死亡"
+    },
+    {
+      "key": "~onTimer:#",
+      "label": "每 # ticks"
+    },
+    {
+      "key": "~onInteract",
+      "label": "当生物被右键"
+    },
+    {
+      "key": "~onKillPlayer",
+      "label": "当生物击杀玩家"
+    },
+    {
+      "key": "~onPlayerDeath",
+      "label": "当玩家死亡"
+    },
+    {
+      "key": "~onEnterCombat",
+      "label": "当生物开始战斗（需要开启威胁表）"
+    },
+    {
+      "key": "~onDropCombat",
+      "label": "当生物停止战斗（需要开启威胁表）"
+    },
+    {
+      "key": "~onChangeTarget",
+      "label": "当生物改变目标（需要开启威胁表）"
+    },
+    {
+      "key": "~onExplode",
+      "label": "当生物爆炸（经常只用于爬行者）"
+    },
+    {
+      "key": "~onTeleport",
+      "label": "当生物传送（经常只用于末影人）"
+    },
+    {
+      "key": "~onSignal",
+      "label": "当生物接收到信号"
+    },
+    {
+      "key": "~onSignal:[signal]",
+      "label": "当生物接收到特定信号"
+    }
+  ],
+  "FilterVar": [
+    {
+      "key": "animals",
+      "label": "非敌人生物"
+    },
+    {
+      "key": "creative",
+      "label": "创造模式，默认忽略"
+    },
+    {
+      "key": "creatures",
+      "label": "任何生物"
+    },
+    {
+      "key": "flyingmobs",
+      "label": "飞行的怪物"
+    },
+    {
+      "key": "monsters",
+      "label": "敌对生物"
+    },
+    {
+      "key": "NPCs",
+      "label": "Citizens 的 NPC，默认忽略"
+    },
+    {
+      "key": "players",
+      "label": "玩家"
+    },
+    {
+      "key": "samefaction",
+      "label": "同派系的生物"
+    },
+    {
+      "key": "spectators",
+      "label": "旁观者，默认忽略"
+    },
+    {
+      "key": "watermobs",
+      "label": "水怪"
+    }
+  ],
+  "SkillVar": [
+    {
+      "key": "Command",
+      "label": "让每个目标执行技能"
+    },
+    {
+      "key": "Damage",
+      "label": "伤害目标"
+    },
+    {
+      "key": "Add Tag",
+      "label": "\t添加一条计分板标签"
+    },
+    {
+      "key": "Arrow Volley",
+      "label": "发射一簇箭矢"
+    },
+    {
+      "key": "Base Damage",
+      "label": "造成生物基础伤害的百分比的伤害"
+    },
+    {
+      "key": "Consume",
+      "label": "造成伤害，并给自己回血"
+    },
+    {
+      "key": "Doppleganger",
+      "label": "复制目标的外观"
+    },
+    {
+      "key": "Explosion",
+      "label": "生成一个爆炸"
+    },
+    {
+      "key": "Force Pull",
+      "label": "将目标传送至生物"
+    },
+    {
+      "key": "Glow",
+      "label": "使目标发光"
+    },
+    {
+      "key": "Heal",
+      "label": "治疗目标"
+    },
+    {
+      "key": "Heal Percent",
+      "label": "治疗目标部分（百分比）的血量"
+    },
+    {
+      "key": "Ignite",
+      "label": "点燃目标"
+    },
+    {
+      "key": "JSON Message",
+      "label": "发送 JSON 文本到玩家（tellraw）"
+    },
+    {
+      "key": "Leap",
+      "label": "让生物飞跃到目标面前"
+    },
+    {
+      "key": "Lightning",
+      "label": "雷击目标"
+    },
+    {
+      "key": "Message",
+      "label": "向目标发送信息"
+    },
+    {
+      "key": "Modify Score",
+      "label": "修改玩家分数"
+    },
+    {
+      "key": "Modify Target Score",
+      "label": "修改目标分数"
+    },
+    {
+      "key": "Mount Target",
+      "label": "骑上目标"
+    },
+    {
+      "key": "Percent Damage",
+      "label": "以百分比伤害目标"
+    },
+    {
+      "key": "Potion",
+      "label": "将药水效果赋给目标"
+    },
+    {
+      "key": "Prison",
+      "label": "将目标放进方块"
+    },
+    {
+      "key": "Pull",
+      "label": "将目标拉倒生物面前"
+    },
+    {
+      "key": "Rally",
+      "label": "让附近生物攻击目标"
+    },
+    {
+      "key": "Random Message",
+      "label": "发送随机信息"
+    },
+    {
+      "key": "Remove",
+      "label": "移除目标"
+    },
+    {
+      "key": "Remove Tag",
+      "label": "移除计分板标签"
+    },
+    {
+      "key": "Send Action Message",
+      "label": "发送 ActionBar 消息到目标"
+    },
+    {
+      "key": "Set Gliding",
+      "label": "如果目标有鞘翅，让目标滑翔"
+    },
+    {
+      "key": "Set Owner",
+      "label": "让目标成为生物主人"
+    },
+    {
+      "key": "Send Title Message",
+      "label": "发送 Title 到目标玩家"
+    },
+    {
+      "key": "Set Score",
+      "label": "设置玩家分数"
+    },
+    {
+      "key": "Set Target Score",
+      "label": "设置目标分数"
+    },
+    {
+      "key": "Set Stance",
+      "label": "设置目标姿势"
+    },
+    {
+      "key": "Shoot Fireball",
+      "label": "向目标发射火球"
+    },
+    {
+      "key": "Shoot Potion",
+      "label": "向目标投掷药水"
+    },
+    {
+      "key": "Shoot Skull",
+      "label": "向目标发射一个凋零头"
+    },
+    {
+      "key": "Signal",
+      "label": "向生物发送信号"
+    },
+    {
+      "key": "Spring",
+      "label": "在目标处创建流水"
+    },
+    {
+      "key": "Summon",
+      "label": "在目标处生成生物"
+    },
+    {
+      "key": "Teleport",
+      "label": "传送至目标"
+    },
+    {
+      "key": "TeleportTo",
+      "label": "传送目标到特定地点"
+    },
+    {
+      "key": "Threat",
+      "label": "设置目标对生物的威胁度"
+    },
+    {
+      "key": "Throw",
+      "label": "将目标丢出 throw{velocity=number;velocityY=number}"
+    },
+    {
+      "key": "velocity=",
+      "abbr": "v",
+      "label": "抛出实体的水平速度"
+    },
+    {
+      "key": "velocity=",
+      "abbr": "vy",
+      "label": "更改目标的速度"
+    },
+    {
+      "key": "Disguise",
+      "label": "更改生物伪装"
+    },
+    {
+      "key": "Dismount",
+      "label": "如果生物在骑乘，停止骑乘"
+    },
+    {
+      "key": "Eject Passenger",
+      "label": "将骑在身上的生物弹出"
+    },
+    {
+      "key": "Equip",
+      "label": "装备一个物品"
+    },
+    {
+      "key": "Global Cooldown",
+      "label": "设置生物的全局冷却"
+    },
+    {
+      "key": "Jump",
+      "label": "让生物跳一下"
+    },
+    {
+      "key": "Modify Global Score",
+      "label": "更改全局分数"
+    },
+    {
+      "key": "Modify Mob Score",
+      "label": "更改生物的分数"
+    },
+    {
+      "key": "Mount",
+      "label": "生成其他生物并骑乘"
+    },
+    {
+      "key": "Remount",
+      "label": "如果生物活着，重新骑乘"
+    },
+    {
+      "key": "Set Global Score",
+      "label": "设置全局分数"
+    },
+    {
+      "key": "Set Mob Score",
+      "label": "设置生物分数"
+    },
+    {
+      "key": "Set Level",
+      "label": "更改生物等级"
+    },
+    {
+      "key": "Suicide",
+      "label": "让生物自杀"
+    },
+    {
+      "key": "Weather",
+      "label": "更改天气"
+    },
+    {
+      "key": "CancelEvent",
+      "label": "取消触发技能的事件"
+    },
+    {
+      "key": "Delay",
+      "label": "延迟当前技能列表的使用"
+    },
+    {
+      "key": "Missile",
+      "label": "发射一个导弹"
+    },
+    {
+      "key": "Orbital",
+      "label": "创建一个围绕目标环绕的飞行物(于 2.6 加入)"
+    },
+    {
+      "key": "Projectile",
+      "label": "发射一个自定义的弹射物到目标"
+    },
+    {
+      "key": "Shoot",
+      "label": "发射一个物品到目标"
+    },
+    {
+      "key": "Skill",
+      "label": "执行其他技能"
+    },
+    {
+      "key": "SudoSkill",
+      "label": "让目标执行技能"
+    },
+    {
+      "key": "Random Skill",
+      "label": "随机执行一个技能"
+    },
+    {
+      "key": "Totem",
+      "label": "在一个坐标创建固定的图腾"
+    },
+    {
+      "key": "Activate Spawner",
+      "label": "激活一个 MythicMobs 刷怪点"
+    },
+    {
+      "key": "Push Button",
+      "label": "按下 @Location 的按钮"
+    },
+    {
+      "key": "Toggle Lever",
+      "label": "拉动 @Location 的拉杆"
+    },
+    {
+      "key": "cooldown 0",
+      "abbr": "cd",
+      "label": "冷却时间，秒"
+    },
+    {
+      "key": "delay 0",
+      "label": "冷延迟技能的使用"
+    },
+    {
+      "key": "repeat 0",
+      "label": "重复几次使用"
+    },
+    {
+      "key": "repeatInterval 0",
+      "label": "重复使用的间隔时间"
+    },
+    {
+      "key": "BarTimer",
+      "label": "[BarAPI]创建一个包含指定消息的柱，持续 # 秒。"
+    },
+    {
+      "key": "Cast",
+      "label": "让生物“释放”技能，使用不同的设置"
+    },
+    {
+      "key": "Chain",
+      "label": "让技能反弹到多个目标上"
+    },
+    {
+      "key": "Meteor",
+      "label": "让流星导弹落到目标上"
+    },
+    {
+      "key": "Set Health",
+      "label": "更改生物血量"
+    },
+    {
+      "key": "Set Max Health",
+      "label": "更改生物的最大血量"
+    },
+    {
+      "key": "Set Name",
+      "label": "更改生物名称"
+    },
+    {
+      "key": "Stun",
+      "label": "眩晕目标"
+    },
+    {
+      "key": "Swap",
+      "label": "与目标交换坐标"
+    },
+    {
+      "key": "Time",
+      "label": "更改时间"
+    }
+  ],
+  "BossBar": {
+    "Color": [
+      {
+        "key": "PINK",
+        "label": "粉色"
+      },
+      {
+        "key": "BLUE",
+        "label": "蓝色"
+      },
+      {
+        "key": "RED",
+        "label": "红色"
+      },
+      {
+        "key": "GREEN",
+        "label": "绿色"
+      },
+      {
+        "key": "YELLOW",
+        "label": "黄色"
+      },
+      {
+        "key": "PURPLE",
+        "label": "紫色"
+      },
+      {
+        "key": "WHITE",
+        "label": "白色"
+      }
+    ],
+    "Style": [
+      {
+        "key": "SOLID",
+        "label": "实心整条"
+      },
+      {
+        "key": "SEGMENTED_6",
+        "label": "分6段"
+      },
+      {
+        "key": "SEGMENTED_10",
+        "label": "分10段"
+      },
+      {
+        "key": "SEGMENTED_12",
+        "label": "分12段"
+      },
+      {
+        "key": "SEGMENTED_20",
+        "label": "分20段"
+      }
+    ]
+  }
+}

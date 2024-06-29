@@ -53,7 +53,7 @@ export default {
     }
   },
   created() {
-    fetch("http://api.github.com/repos/LiusCraft/MinecraftToolsWebsite/commits", requestOptions)
+    fetch("https://api.github.com/repos/LiusCraft/MinecraftToolsWebsite/commits", requestOptions)
       .then(response => response.text())
       .then(result => this.activities = JSON.parse(result))
       .catch(error => console.log('error', error));
